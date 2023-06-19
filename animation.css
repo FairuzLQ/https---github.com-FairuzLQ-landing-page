@@ -1,0 +1,112 @@
+/* Header Animation */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  header {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Features Animation */
+  @keyframes slideIn {
+    from {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .features .feature {
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  /* Team Animation */
+  @keyframes scaleIn {
+    from {
+      transform: scale(0);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .team-members .team-member {
+    animation: scaleIn 1s ease-in-out;
+  }
+  
+  /* Documentation Animation */
+  @keyframes fadeInLeft {
+    from {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .documentation-content .documentation-image,
+  .documentation-content .documentation-text {
+    animation: fadeInLeft 1s ease-in-out;
+  }
+  
+  /* Download Animation */
+  @keyframes scaleUp {
+    from {
+      transform: scale(0);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  #download .download-btn {
+    animation: scaleUp 1s ease-in-out;
+  }
+  
+  /* Video Tutorial Animation */
+  @keyframes slideInDown {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  #video-tutorial .video-player,
+  #video-tutorial p {
+    animation: slideInDown 1s ease-in-out;
+  }
+  
+  /* Footer Animation */
+  @keyframes fadeInUp {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  footer {
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
